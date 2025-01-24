@@ -1,13 +1,13 @@
 def area_of_cylinder(r,h):
-    Area=(2(3.14)*r*h)+2(3.14)*(r**2)
+    Area=float(2*3.14*r*h+2*3.14*(r**2))
     return Area
 
 def calculate_cylinder_base_perimeter(radius):
-    perimeter = 2 * 3.142 * radius
+    perimeter = float(2 * 3.142 * radius)
     return perimeter
 
 def volumeofcylinder(r,h):
-    vol = 3.14*(r)*(r)*(h)
+    vol = float(3.14*(r)*(r)*(h))
     return vol
 
 r=float(input("Enter the radius of the Cylinder:"))
