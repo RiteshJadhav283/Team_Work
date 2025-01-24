@@ -1,3 +1,3 @@
 def area_of_cylinder(r,h):
-    Area=(2(3.14)*r*h)+2(3.14)*(r**2)
+    Area=float(2*3.14*r*h+2*3.14*(r**2))
     return Area
