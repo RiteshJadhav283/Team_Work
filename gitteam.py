@@ -5,3 +5,13 @@ def area_of_cylinder(r,h):
 def calculate_cylinder_base_perimeter(radius):
     perimeter = 2 * 3.142 * radius
     return perimeter
+
+r=float(input("Enter the radius of the Cylinder:"))
+h=float(input("Enter the height of the cylinder:"))
+x=area_of_cylinder(r,h)
+y=volumeofcylindr(r,h)
+z=calculate_cylinder_base_perimeter(r)
+print(f'The area of cylinder={x}')
+print(f'The volume of cylinder={y}')
+print(f'The perimeter of cylinder={z}')
+
